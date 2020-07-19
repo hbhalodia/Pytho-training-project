@@ -2,7 +2,7 @@
 This project is based on Number system conversion using Graphical User Interface
 
 
-### = You just First Type the command in command Prompt :>
+### You just First Type the command in command Prompt :>
 
 `pip install pyqt5Designer`
 
