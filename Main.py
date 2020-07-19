@@ -454,7 +454,7 @@ class Ui_ConverPage(object):
         self.convertoutputbtn.setText(_translate("ConverPage", "CONVERT"))
         self.clearbtn.setText(_translate("ConverPage", "CLEAR"))
         
-    def clear(self):
+    def clear(self):        # Used to clear the data in text box
         self.inputtake1.setText("")
         self.output1.setText("")
     
@@ -588,7 +588,7 @@ class Ui_ConverPage(object):
                 self.output1.setText(inpbin)
 
             
-    # Binary to decimal Perfectly Working for both the conditions fractional and decimal Part #
+    
     def bintodec(self):
         inpbin = str(self.inputtake1.text())      
         for i in inpbin:
